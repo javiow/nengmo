@@ -1,0 +1,14 @@
+{
+  "project": "냉모(nengmo) — 장보기 리스트 관리",
+  "phase": "mvp",
+  "steps": [
+    { "step": 0, "name": "project-setup", "status": "pending" },
+    { "step": 1, "name": "data-layer-foundation", "status": "pending" },
+    { "step": 2, "name": "app-store", "status": "pending" },
+    { "step": 3, "name": "board-store-crud", "status": "pending" },
+    { "step": 4, "name": "store-detail-shell", "status": "pending" },
+    { "step": 5, "name": "shopping-list-tab", "status": "pending" },
+    { "step": 6, "name": "price-memo-tab", "status": "pending" },
+    { "step": 7, "name": "polish-responsive-empty-states", "status": "pending" }
+  ]
+}

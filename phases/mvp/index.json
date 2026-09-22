@@ -2,13 +2,49 @@
   "project": "냉모(nengmo) — 장보기 리스트 관리",
   "phase": "mvp",
   "steps": [
-    { "step": 0, "name": "project-setup", "status": "pending" },
-    { "step": 1, "name": "data-layer-foundation", "status": "pending" },
-    { "step": 2, "name": "app-store", "status": "pending" },
-    { "step": 3, "name": "board-store-crud", "status": "pending" },
-    { "step": 4, "name": "store-detail-shell", "status": "pending" },
-    { "step": 5, "name": "shopping-list-tab", "status": "pending" },
-    { "step": 6, "name": "price-memo-tab", "status": "pending" },
-    { "step": 7, "name": "polish-responsive-empty-states", "status": "pending" }
-  ]
+    {
+      "step": 0,
+      "name": "project-setup",
+      "status": "completed",
+      "started_at": "2026-09-22T18:47:34+0900",
+      "summary": "Next.js App Router + TypeScript strict + Tailwind CSS v4 스캐폴딩, zustand/lucide-react 설치, Vitest(jsdom) 테스트 환경 구성 (build/lint/test 모두 통과, critical/high 취약점 없음)",
+      "completed_at": "2026-09-22T18:54:23+0900"
+    },
+    {
+      "step": 1,
+      "name": "data-layer-foundation",
+      "status": "pending"
+    },
+    {
+      "step": 2,
+      "name": "app-store",
+      "status": "pending"
+    },
+    {
+      "step": 3,
+      "name": "board-store-crud",
+      "status": "pending"
+    },
+    {
+      "step": 4,
+      "name": "store-detail-shell",
+      "status": "pending"
+    },
+    {
+      "step": 5,
+      "name": "shopping-list-tab",
+      "status": "pending"
+    },
+    {
+      "step": 6,
+      "name": "price-memo-tab",
+      "status": "pending"
+    },
+    {
+      "step": 7,
+      "name": "polish-responsive-empty-states",
+      "status": "pending"
+    }
+  ],
+  "created_at": "2026-09-22T18:47:34+0900"
 }

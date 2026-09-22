@@ -47,7 +47,7 @@ export function StoreDetailScreen({ storeId }: StoreDetailScreenProps) {
         가게 보드로
       </Link>
       <h1 className="mb-4 text-xl font-semibold">{store.name}</h1>
-      <StoreDetailTabs />
+      <StoreDetailTabs storeId={store.id} />
     </div>
   );
 }

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Tabs } from "@/components/ui/Tabs";
 import { ShoppingList } from "./shopping-list/ShoppingList";
+import { PriceMemo } from "./price-memo/PriceMemo";
 
 const TABS = [
   { id: "shopping-list", label: "장보기 리스트" },
@@ -29,9 +30,7 @@ export function StoreDetailTabs({ storeId }: StoreDetailTabsProps) {
         {activeTab === "shopping-list" ? (
           <ShoppingList storeId={storeId} />
         ) : (
-          <p className="text-sm text-gray-500">
-            가격 메모는 다음 step에서 구현 예정입니다.
-          </p>
+          <PriceMemo storeId={storeId} />
         )}
       </div>
     </div>

@@ -23,7 +23,7 @@ describe("StoreDetailTabs", () => {
     ).toBeInTheDocument();
   });
 
-  it("가격 메모 탭을 클릭하면 해당 placeholder로 전환된다", () => {
+  it("가격 메모 탭을 클릭하면 가격 메모 화면으로 전환된다", () => {
     const store = useAppStore
       .getState()
       .createStore({ name: "홈플러스", category: "hypermarket" });
@@ -36,9 +36,7 @@ describe("StoreDetailTabs", () => {
       "aria-selected",
       "true",
     );
-    expect(
-      screen.getByText("가격 메모는 다음 step에서 구현 예정입니다."),
-    ).toBeInTheDocument();
+    expect(screen.getByText("상품을 등록해보세요.")).toBeInTheDocument();
     expect(
       screen.queryByText("살 것을 추가해보세요."),
     ).not.toBeInTheDocument();

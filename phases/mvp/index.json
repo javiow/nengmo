@@ -53,7 +53,10 @@
     {
       "step": 6,
       "name": "price-memo-tab",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-22T19:25:41+0900",
+      "summary": "가격 메모 탭 구현 — useProducts/usePriceEntries 훅, ProductAddModal(이름+첫 가격 원자적 등록)/ProductRenameModal/ProductListItem/ProductList(빈 상태+삭제 ConfirmDialog), PriceEntryRow(인라인 수정)/PriceEntryList(최신순, 빈 상태)/PriceEntryAddForm, 이를 조합한 PriceMemo로 StoreDetailTabs의 가격 메모 placeholder 교체 (테스트 29개 추가, build/lint/test 모두 통과)",
+      "completed_at": "2026-09-22T19:32:08+0900"
     },
     {
       "step": 7,

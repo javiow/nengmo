@@ -19,6 +19,10 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
 
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -237,7 +241,7 @@ class StepExecutor:
         prompt = preamble + step_file.read_text(encoding="utf-8")
         result = subprocess.run(
             ["claude", "-p", "--dangerously-skip-permissions", "--output-format", "json", prompt],
-            cwd=self._root, capture_output=True, text=True, timeout=1800,
+            cwd=self._root, capture_output=True, text=True, encoding="utf-8", timeout=1800,
         )
 
         if result.returncode != 0:

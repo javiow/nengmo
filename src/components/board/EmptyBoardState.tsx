@@ -7,7 +7,7 @@ interface EmptyBoardStateProps {
 export function EmptyBoardState({ onAddStore }: EmptyBoardStateProps) {
   return (
     <div className="flex flex-col items-center gap-3 py-16 text-center">
-      <p className="text-sm text-gray-500">아직 등록된 가게가 없습니다.</p>
+      <p className="text-sm text-gray-500">자주 가는 가게를 등록해보세요.</p>
       <button
         type="button"
         onClick={onAddStore}

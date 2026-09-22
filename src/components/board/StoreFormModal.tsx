@@ -75,7 +75,7 @@ export function StoreFormModal({
 
         <div>
           <p className="mb-1 text-sm font-medium text-gray-700">카테고리</p>
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-3 gap-2">
             {CATEGORIES.map((c) => {
               const Icon = getCategoryIcon(c);
               return (

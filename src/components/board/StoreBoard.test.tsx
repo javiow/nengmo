@@ -20,7 +20,7 @@ describe("StoreBoard", () => {
     render(<StoreBoard />);
 
     expect(
-      screen.getByText("아직 등록된 가게가 없습니다."),
+      screen.getByText("자주 가는 가게를 등록해보세요."),
     ).toBeInTheDocument();
   });
 

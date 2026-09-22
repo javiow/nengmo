@@ -7,7 +7,7 @@ describe("EmptyBoardState", () => {
     render(<EmptyBoardState onAddStore={vi.fn()} />);
 
     expect(
-      screen.getByText("아직 등록된 가게가 없습니다."),
+      screen.getByText("자주 가는 가게를 등록해보세요."),
     ).toBeInTheDocument();
     expect(
       screen.getByRole("button", { name: "가게 추가" }),

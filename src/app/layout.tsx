@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AppHydrator } from "@/components/AppHydrator";
+import { ErrorBoundary } from "@/components/ui/ErrorBoundary";
 
 export const metadata: Metadata = {
   title: "냉모",
@@ -9,7 +11,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <AppHydrator />
+        <ErrorBoundary>{children}</ErrorBoundary>
+      </body>
     </html>
   );
 }

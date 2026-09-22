@@ -29,7 +29,10 @@
     {
       "step": 3,
       "name": "board-store-crud",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-22T19:04:22+0900",
+      "summary": "가게 보드 CRUD 구현 — useStores 훅, 범용 Modal/ConfirmDialog/ErrorBoundary, StoreCard/StoreFormModal/EmptyBoardState/StoreBoard, layout의 AppHydrator+ErrorBoundary 연결, page.tsx를 StoreBoard wrapper로 교체 (테스트 30개 추가, build/lint/test 모두 통과)",
+      "completed_at": "2026-09-22T19:15:00+0900"
     },
     {
       "step": 4,

@@ -13,7 +13,10 @@
     {
       "step": 1,
       "name": "data-layer-foundation",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-22T18:55:47+0900",
+      "summary": "Store/ShoppingListItem/Product/PriceEntry 타입 정의, id/datetime 래퍼, 카테고리별 아이콘·라벨 매핑, 이름/가격 검증 순수 함수(ValidationError) 및 각 테스트 작성 (build/lint/test 모두 통과)",
+      "completed_at": "2026-09-22T18:57:18+0900"
     },
     {
       "step": 2,

@@ -24,7 +24,7 @@
       "status": "completed",
       "started_at": "2026-09-22T18:59:35+0900",
       "summary": "Zustand persist 단일 스토어(useAppStore) 구현 — stores/shoppingItems/products/priceEntries 및 캐스케이드 삭제·원자적 생성·검증 전파 액션, 19개 테스트 작성 (build/lint/test 모두 통과)",
-      "completed_at": "2026-09-22T19:03:11+0900"
+      "completed_at": "2026-09-22T19:04:22+0900"
     },
     {
       "step": 3,
